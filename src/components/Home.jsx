@@ -56,6 +56,8 @@ const Home = () => {
                             t('home.animacion3'),
                             2000,
                             t('home.animacion4'),
+                            2000,
+                            t('home.animacion5'),
                             2000
                         ]}
                         wrapper="span"

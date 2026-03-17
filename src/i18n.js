@@ -13,11 +13,11 @@ const resources = {
         "habilidades": "Habilidades"
       },
       "home": {
-        "animacion1": "Desarrollador Front-End",
+        "animacion1": "Desarrollador Full-stack",
         "animacion2": "Estudiante de Ingeniería en Sistemas",
-        "animacion3": "Entusiasta de la Ciberseguridad",
+        "animacion3": "Gamer tiempo completo",
         "animacion4": "Deportista y amante de la música",
-        "dondeEncontrarme": "Donde encontrarme"
+        "animacion5": "Analista universitario de sistemas de informacion"
       },
       "about": {
         "titulo": "Sobre mí",
@@ -94,11 +94,11 @@ const resources = {
         "habilidades": "Skills"
       },
       "home": {
-        "animacion1": "Front-End Developer",
+        "animacion1": "Full-stack developer",
         "animacion2": "Information Systems Engineering Student",
-        "animacion3": "Cybersecurity Enthusiast",
+        "animacion3": "Full-Time Gamer",
         "animacion4": "Active athlete & music lover",
-        "dondeEncontrarme": "Where to find me"
+        "animacion5": "Information Systems Analyst"
       },
       "about": {
         "titulo": "About me",
