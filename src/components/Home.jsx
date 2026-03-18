@@ -9,18 +9,15 @@ import animacionHero from "../../public/Foto/3D-Gaming.json";
 
 const Home = () => {
     const [seccionRef, esVisible] = useFadeInOnScroll(0.2);
-
     const lottieRef = useRef(null);
-    
     const { t, i18n } = useTranslation();
 
     return (
     <div 
         ref={seccionRef} 
-        style={{ minHeight: '90vh' }} 
-        className={`flex flex-col justify-center transform transition-all duration-1000 ease-out ${esVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
+        className={`flex flex-col justify-center py-20 lg:py-32 transform transition-all duration-1000 ease-out ${esVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
     > 
-        <div className='w-full max-w-7xl mx-auto px-4 min-h-[80vh] flex flex-col md:flex-row items-center justify-between gap-12 md:gap-8'>
+        <div className='w-full max-w-7xl mx-auto px-4 min-h-full flex flex-col md:flex-row items-center justify-between gap-12 md:gap-8'>
             
             {/* COLUMNA IZQUIERDA */}
             <div className="w-full md:w-1/2 flex justify-center items-center">
@@ -73,7 +70,7 @@ const Home = () => {
                     <DownloadButton/>
                 </div>
                 
-                <div className="w-full flex justify-center  mt-2">
+                <div className="w-full flex justify-center mt-2">
                     <Tooltip/>
                 </div>
                 
