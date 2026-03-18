@@ -22,12 +22,12 @@ const resources = {
       "about": {
         "titulo": "Sobre mí",
         "saludo": "Hola, soy Guille",
-        "parrafo1": "Un estudiante de cuarto año de la carrera Ingeniería de Sistemas de Información en la UTN, aspiro a obtener el título de analista universitario de sistemas de información.",
-        "parrafo2": "Me apasiona aprender, me considero curioso por eso siempre busco nuevo conocimiento, puedo hacerlo de forma autodidacta o tambien asistir a charlas sobre temas en tendencia que me interesen.",
+        "parrafo1": "Soy estudiante de cuarto año de la carrera Ingeniería de Sistemas de Información en la UTN, pronto a recibir el título de Analista Universitario de Sistemas de Información.",
+        "parrafo2": "Me apasiona aprender. Me considero curioso por eso siempre busco incorporar nuevos conocimientos. Suelo hacerlo de forma autodidacta o también asistiendo a charlas sobre temas en tendencia que me interesen.",
         "titulos_tarjetas": {
           "idioma": "Lengua extranjera",
           "habilidades": "Habilidades blandas",
-          "gustos": "Gustos personales"
+          "gustos": "Un poco más sobre mi"
         },
         "idioma": "Inglés",
         "habilidades_lista": [
@@ -40,11 +40,12 @@ const resources = {
         "gustos_lista": [
           "Pasión por los videojuegos",
           "Deportista activo",
-          "Amor por la música"
+          "Amor por la música en vivo",
+          "Apasionado del cine"
         ]
       },
       "skills": {
-        "titulo": "Experiencias",
+        "titulo": "Experiencia",
         "tarjetas": [
           {
             "titulo": "Callcenter PPAI",
@@ -73,7 +74,7 @@ const resources = {
         ]
       },
       "skills_logos": {
-        "titulo": "Habilidades"
+        "titulo": "Herramientas"
       },
       "footer": {
         "derechos": "Todos los derechos reservados."
@@ -103,29 +104,30 @@ const resources = {
       "about": {
         "titulo": "About me",
         "saludo": "Hi, I'm Guille",
-        "parrafo1": "A fourth-year student of Information Systems Engineering at UTN, I aspire to obtain the degree of University Analyst of Information Systems.",
-        "parrafo2": "I am passionate about learning and consider myself curious, which is why I am always looking for new knowledge. I can do this self-taught or by attending talks on trending topics that interest me.",
+        "parrafo1": "I'm a fourth-year student of Information Systems Engineering at UTN. I'm on track to obtain the degree of Analyst of Information Systems.",
+        "parrafo2": "I am passionate about learning and I'm very curious. I am always chasing knowledge. I usually learn by myself or by attending talks on trending topics that I find interesting.",
         "titulos_tarjetas": {
           "idioma": "Foreign Language",
           "habilidades": "Soft Skills",
           "gustos": "Personal Interests"
         },
-        "idioma": "English",
+        "idioma": "Native Spanish",
         "habilidades_lista": [
-          "Good communication",
-          "Teamwork",
-          "Problem-solving",
-          "Perseverance and flexibility",
-          "Agility with results"
+          "Great communication skills",
+          "Comfortable working in a team",
+          "Problem-solving mindset",
+          "Perseverent",
+          "Proactive"
         ],
         "gustos_lista": [
           "Passion for video games",
           "Active athlete",
-          "Love for music"
+          "Live music lover",
+          "Movie enthusiast"
         ]
       },
       "skills": {
-        "titulo": "Experiences",
+        "titulo": "Experience",
         "tarjetas": [
           {
             "titulo": "Callcenter PPAI",
@@ -137,24 +139,24 @@ const resources = {
           },
           {
             "titulo": "Cisco Certification",
-            "desc": "Successfully completed a Java programming course at the Cisco Academy."
+            "desc": "Java programming course at the Cisco Academy."
           },
           {
             "titulo": "Blockchain Project",
-            "desc": "Self-taught attendance at the conference given by the Information Systems Engineering department of UTN-FRC."
+            "desc": "Conference given by the Information Systems Engineering department of UTN-FRC."
           },
           {
             "titulo": "Web Development",
-            "desc": "Successfully completed a web development programming course dictated by the Desafío Latam academy."
+            "desc": "Web development programming course dictated by the Desafío Latam academy."
           },
           {
             "titulo": "Playbook",
-            "desc": "Self-taught attendance at the cybersecurity conference given by the Information Systems Engineering department of UTN-FRC and Bancor."
+            "desc": "Cybersecurity talk given by the Information Systems Engineering department of UTN-FRC and Bancor."
           }
         ]
       },
       "skills_logos": {
-        "titulo": "Skills"
+        "titulo": "Tools"
       },
       "footer": {
         "derechos": "All rights reserved."

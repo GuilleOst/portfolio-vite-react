@@ -50,7 +50,7 @@ export default function DropdownLenguage() {
                 } flex w-full items-center px-4 py-2 text-left text-sm font-medium transition-colors outline-none focus:outline-none focus:ring-0 shadow-none border-none`}
               >
                 <span className="fi fi-gb fis mr-3 rounded-sm text-lg"></span>
-                Inglés
+                English
               </button>
             )}
           </MenuItem>

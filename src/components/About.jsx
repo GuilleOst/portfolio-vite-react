@@ -4,7 +4,9 @@ import { useTranslation } from 'react-i18next';
 
 const About = () => {
     const [seccionRef, esVisible] = useFadeInOnScroll(0.2);
-    const { t } = useTranslation(); 
+    const { t, i18n } = useTranslation(); 
+
+    const isEnglish = i18n.language === 'en' || i18n.lenguage?.startWith('en');
 
     return (
         <section ref={seccionRef} className="max-w-6xl mx-auto p-4 flex flex-col items-center overflow-hidden">
@@ -42,13 +44,17 @@ const About = () => {
                         </h2>
                         <div className="w-full h-full flex flex-col items-center justify-center p-6 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl">
                             <span className="text-xl text-white font-bold mb-4 text-center">{t('about.idioma')}</span>
-                            <div className="w-full flex justify-center items-center">
+                            {!isEnglish && (
+                                <div className="w-full flex justify-center items-center">
                                 <img
                                     src="/certificados/B2-Certified.png"
                                     alt="Certificado de ingles EF SET"
                                     className="w-full max-w-[200px] h-auto object-contain"
                                 />
                             </div>
+
+                            )}
+                            
                         </div>
                     </div>
 
