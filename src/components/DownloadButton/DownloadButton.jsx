@@ -14,10 +14,10 @@ const DownloadButton = () => {
     const idiomaActual = (i18n.language || 'es').substring(0,2).toLocaleLowerCase();
 
     if(idiomaActual === 'en'){
-      link.href = '../../public/CV/CV-Guillermo-Ostermann-EN.pdf'; 
+      link.href = '/CV/CV-Guillermo-Ostermann-EN.pdf'; 
       link.download = 'CV_Guillermo_Ostermann_EN.pdf'; 
     }else{
-      link.href = '../../public/CV/CV-Guillermo-Ostermann-ES.pdf'; 
+      link.href = '/CV/CV-Guillermo-Ostermann-ES.pdf'; 
       link.download = 'CV_Guillermo_Ostermann.pdf'; 
     }
     
