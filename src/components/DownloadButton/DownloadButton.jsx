@@ -17,7 +17,7 @@ const DownloadButton = () => {
       link.href = '/CV/CV-Guillermo-Ostermann-EN.pdf'; 
       link.download = 'CV_Guillermo_Ostermann_EN.pdf'; 
     }else{
-      link.href = '/CV/CV-Guillermo_Ostermann_ES.pdf'; 
+      link.href = '/CV/CV_Guillermo_Ostermann_ES.pdf'; 
       link.download = 'CV_Guillermo_Ostermann_ES.pdf'; 
     }
     
