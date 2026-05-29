@@ -15,6 +15,7 @@ Podés visitar el portfolio en producción acá:
 
 
 <img width="1895" height="764" alt="preview" src="https://github.com/user-attachments/assets/ac502883-1052-4213-bd11-425f12d71db7" />
+<img width="391" height="853" alt="preview mobile" src="https://github.com/user-attachments/assets/198fc7fd-83b7-4492-8e95-d95a16e1d021" />
 
 
 ## 🚀 Tecnologías Utilizadas
