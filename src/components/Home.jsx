@@ -5,7 +5,7 @@ import Tooltip from "./Tooltip/Tooltip";
 import { useFadeInOnScroll } from "./Fadeinscroll";
 import { TypeAnimation } from 'react-type-animation';
 import Lottie from "lottie-react"; 
-import animacionHero from "../../public/Foto/3D-Gaming.json"; 
+import animacionHero from "../../src/Foto/3D-Gaming.json"; 
 
 const Home = () => {
     const [seccionRef, esVisible] = useFadeInOnScroll(0.2);

@@ -30,7 +30,7 @@ const Skills = () => {
         { src: "/proyectos/callcenterPPAI.png", githubLink: "https://github.com/GuilleOst/TrabajosUTN/blob/main/Proyecto%20practico%20integrador%20-%20Dise%C3%B1o%20de%20sistemas.rar" },
         { src: "/proyectos/Cinelife.png", githubLink: "https://github.com/GuilleOst/TrabajosUTN/blob/main/TPI%20Programacion%20visual.rar" },
         { src: "/proyectos/Certificado cisco.jpg", githubLink: "" },
-        { src: "/proyectos/Blockchain.jpg", githubLink: "" },
+        { src: "/proyectos/Curso AyRPC.png", githubLink: "" },
         { src: "/proyectos/Introduccion al desarrollo web.jpg", githubLink: "" },
         { src: "/proyectos/Playbook.jpg", githubLink: "" }
     ];
@@ -66,7 +66,6 @@ const Skills = () => {
                 ))}
             </div>
 
-            {/* MODAL */}
             {imagenSeleccionada && (
                 <div 
                     className="fixed inset-0 z-[100] flex items-center justify-center bg-black bg-opacity-90 p-4"

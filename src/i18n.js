@@ -60,8 +60,8 @@ const resources = {
             "desc": "Completé con éxito un curso de programación en Java realizado en la academia Cisco."
           },
           {
-            "titulo": "Proyecto Blockchain",
-            "desc": "Asistí de manera autodidacta a la conferencia brindada por el departamento de Ing. en Sistemas de Información de la UTN-FRC."
+            "titulo": "Curso Armado y reparación de PC",
+            "desc": "Curso dictado por la UTN - Buenos Aires, donde aprendí a diagnosticar problemas técnicos, además del armado y reparación de PCs."
           },
           {
             "titulo": "Desarrollo Web",
@@ -142,8 +142,8 @@ const resources = {
             "desc": "Java programming course at the Cisco Academy."
           },
           {
-            "titulo": "Blockchain Project",
-            "desc": "Conference given by the Information Systems Engineering department of UTN-FRC."
+            "titulo": "PC assembly and repair course",
+            "desc": "course offered by UTN-Buenos Aires, where I learned to diagnose technical issues, as well as PC assembly and repair."
           },
           {
             "titulo": "Web Development",
